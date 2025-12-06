@@ -8,12 +8,16 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "README",
+          "mainDocId": "index",
           "docs": [
             {
               "id": "hardware",
               "path": "/hardware",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/"
             },
             {
               "id": "intro",
@@ -39,10 +43,6 @@
               "id": "module04",
               "path": "/module04",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "README",
-              "path": "/"
             }
           ],
           "draftIds": [],

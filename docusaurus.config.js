@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Physical AI & Humanoid Robotics",
-  tagline: "Hackathon Textbook Project",
+  title: "Physical AI Textbook",
+  tagline: "Hackathon Project",
   url: "https://example.com",
   baseUrl: "/",
   organizationName: "hackathon",
@@ -36,11 +36,16 @@ module.exports = {
           position: "left",
           label: "Textbook",
         },
+        {
+          to: "/ai-assistant",
+          label: "AI Assistant",
+          position: "right",
+        },
       ],
     },
     footer: {
       style: "dark",
-      copyright: "Copyright © 2024 Physical AI Textbook - Hackathon Project",
+      copyright: "Copyright © 2024 Physical AI Textbook",
     },
   },
-}
+};

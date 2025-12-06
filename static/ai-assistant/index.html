@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🤖 AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1><i class="fas fa-robot"></i> Robotics AI Assistant</h1>
+        <p>Ask me about Physical AI Humanoid Robotics</p>
+    </div>
+    
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <div class="message bot">
+                <div class="avatar">🤖</div>
+                <div class="text">
+                    <strong>Assistant:</strong> Hello! I can help you with robotics concepts, code examples, and project ideas.
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type your question...">
+            <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i> Send</button>
+        </div>
+        
+        <div class="quick-buttons">
+            <button onclick="askQuestion('What is kinematics?')">Kinematics</button>
+            <button onclick="askQuestion('Python code example')">Python Code</button>
+            <button onclick="askQuestion('AI in robotics')">AI in Robotics</button>
+            <button onclick="askQuestion('Project ideas')">Project Ideas</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <a href="/"><i class="fas fa-arrow-left"></i> Back to Textbook</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

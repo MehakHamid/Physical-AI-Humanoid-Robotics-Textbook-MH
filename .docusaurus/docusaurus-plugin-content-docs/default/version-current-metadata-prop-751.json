@@ -68,6 +68,11 @@
       "description": "Workstation",
       "sidebar": "tutorialSidebar"
     },
+    "index": {
+      "id": "index",
+      "title": "Physical AI Humanoid Robotics Textbook",
+      "description": "Overview"
+    },
     "intro": {
       "id": "intro",
       "title": "Physical AI & Humanoid Robotics",
@@ -97,11 +102,6 @@
       "title": "Module 4: VLA",
       "description": "Vision-Language-Action models.",
       "sidebar": "tutorialSidebar"
-    },
-    "README": {
-      "id": "README",
-      "title": "🤖 Physical AI Humanoid Robotics Textbook",
-      "description": "Spec Kit Plus Edition"
     }
   }
 }

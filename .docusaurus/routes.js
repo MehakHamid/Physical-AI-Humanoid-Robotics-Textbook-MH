@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f5f'),
+    component: ComponentCreator('/', 'a45'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'a23'),
+        component: ComponentCreator('/', '6e0'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '6d5'),
+            component: ComponentCreator('/', '708'),
             routes: [
               {
                 path: '/hardware',
@@ -87,7 +87,7 @@ export default [
               },
               {
                 path: '/',
-                component: ComponentCreator('/', '940'),
+                component: ComponentCreator('/', '134'),
                 exact: true
               }
             ]

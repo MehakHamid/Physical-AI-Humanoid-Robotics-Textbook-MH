@@ -10,7 +10,7 @@ export default {
   "__comp---theme-doc-version-roota-7-b-5de": [() => import(/* webpackChunkName: "__comp---theme-doc-version-roota-7-b-5de" */ "@theme/DocVersionRoot"), "@theme/DocVersionRoot", require.resolveWeak("@theme/DocVersionRoot")],
   "__comp---theme-docs-root-5-e-9-0b6": [() => import(/* webpackChunkName: "__comp---theme-docs-root-5-e-9-0b6" */ "@theme/DocsRoot"), "@theme/DocsRoot", require.resolveWeak("@theme/DocsRoot")],
   "allContent---docusaurus-debug-content-246-9aa": [() => import(/* webpackChunkName: "allContent---docusaurus-debug-content-246-9aa" */ "~debug/default/docusaurus-debug-all-content-673.json"), "~debug/default/docusaurus-debug-all-content-673.json", require.resolveWeak("~debug/default/docusaurus-debug-all-content-673.json")],
-  "content---233-28b": [() => import(/* webpackChunkName: "content---233-28b" */ "@site/docs/README.md"), "@site/docs/README.md", require.resolveWeak("@site/docs/README.md")],
+  "content---c-37-d02": [() => import(/* webpackChunkName: "content---c-37-d02" */ "@site/docs/index.md"), "@site/docs/index.md", require.resolveWeak("@site/docs/index.md")],
   "content---hardwarea-24-f31": [() => import(/* webpackChunkName: "content---hardwarea-24-f31" */ "@site/docs/hardware.md"), "@site/docs/hardware.md", require.resolveWeak("@site/docs/hardware.md")],
   "content---intro-0-e-3-7b8": [() => import(/* webpackChunkName: "content---intro-0-e-3-7b8" */ "@site/docs/intro.md"), "@site/docs/intro.md", require.resolveWeak("@site/docs/intro.md")],
   "content---module-01777-e72": [() => import(/* webpackChunkName: "content---module-01777-e72" */ "@site/docs/module01.md"), "@site/docs/module01.md", require.resolveWeak("@site/docs/module01.md")],

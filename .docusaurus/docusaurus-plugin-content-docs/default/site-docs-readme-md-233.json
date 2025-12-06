@@ -1,7 +1,7 @@
 {
   "id": "README",
-  "title": "🤖 Physical AI Humanoid Robotics Textbook",
-  "description": "Spec Kit Plus Edition",
+  "title": "README",
+  "description": "cat > docs/index.md << 'EOF'",
   "source": "@site/docs/README.md",
   "sourceDirName": ".",
   "slug": "/",

@@ -1,7 +1,7 @@
 {
   "id": "index",
-  "title": "Spec Kit",
-  "description": "Build high-quality software faster.",
+  "title": "Physical AI Humanoid Robotics Textbook",
+  "description": "Overview",
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",

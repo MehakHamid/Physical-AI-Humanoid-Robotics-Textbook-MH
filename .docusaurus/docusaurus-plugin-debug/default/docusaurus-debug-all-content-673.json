@@ -1,0 +1,225 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/workspaces/Physical-AI-Humanoid-Robotics-Textbook-MH/spec-kit-plus/sidebars.js",
+          "contentPath": "/workspaces/Physical-AI-Humanoid-Robotics-Textbook-MH/spec-kit-plus/docs",
+          "contentPathLocalized": "/workspaces/Physical-AI-Humanoid-Robotics-Textbook-MH/spec-kit-plus/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "hardware",
+              "title": "Hardware Requirements",
+              "description": "Workstation",
+              "source": "@site/docs/hardware.md",
+              "sourceDirName": ".",
+              "slug": "/hardware",
+              "permalink": "/hardware",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 4: VLA",
+                "permalink": "/module04"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Physical AI & Humanoid Robotics",
+              "description": "Focus and Theme: AI Systems in the Physical World. Embodied Intelligence.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/intro",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Module 1: The Robotic Nervous System (ROS 2)",
+                "permalink": "/module01"
+              }
+            },
+            {
+              "id": "module01",
+              "title": "Module 1: The Robotic Nervous System (ROS 2)",
+              "description": "Focus: Middleware for robot control.",
+              "source": "@site/docs/module01.md",
+              "sourceDirName": ".",
+              "slug": "/module01",
+              "permalink": "/module01",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Physical AI & Humanoid Robotics",
+                "permalink": "/intro"
+              },
+              "next": {
+                "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+                "permalink": "/module02"
+              }
+            },
+            {
+              "id": "module02",
+              "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+              "description": "Focus: Physics simulation and environment building.",
+              "source": "@site/docs/module02.md",
+              "sourceDirName": ".",
+              "slug": "/module02",
+              "permalink": "/module02",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 1: The Robotic Nervous System (ROS 2)",
+                "permalink": "/module01"
+              },
+              "next": {
+                "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+                "permalink": "/module03"
+              }
+            },
+            {
+              "id": "module03",
+              "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+              "description": "Overview",
+              "source": "@site/docs/module03.md",
+              "sourceDirName": ".",
+              "slug": "/module03",
+              "permalink": "/module03",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+                "permalink": "/module02"
+              },
+              "next": {
+                "title": "Module 4: VLA",
+                "permalink": "/module04"
+              }
+            },
+            {
+              "id": "module04",
+              "title": "Module 4: VLA",
+              "description": "Vision-Language-Action models.",
+              "source": "@site/docs/module04.md",
+              "sourceDirName": ".",
+              "slug": "/module04",
+              "permalink": "/module04",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+                "permalink": "/module03"
+              },
+              "next": {
+                "title": "Hardware Requirements",
+                "permalink": "/hardware"
+              }
+            },
+            {
+              "id": "README",
+              "title": "🤖 Physical AI Humanoid Robotics Textbook",
+              "description": "Spec Kit Plus Edition",
+              "source": "@site/docs/README.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro",
+                "label": "Introduction",
+                "translatable": true
+              },
+              {
+                "type": "category",
+                "label": "Course Modules",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module01",
+                    "label": "Module 1: ROS 2",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module02",
+                    "label": "Module 2: Gazebo",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module03",
+                    "label": "Module 3: NVIDIA Isaac",
+                    "translatable": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module04",
+                    "label": "Module 4: VLA",
+                    "translatable": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "doc",
+                "id": "hardware",
+                "label": "Hardware Requirements",
+                "translatable": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,23 @@
+{
+  "id": "module04",
+  "title": "Module 4: VLA",
+  "description": "Vision-Language-Action models.",
+  "source": "@site/docs/module04.md",
+  "sourceDirName": ".",
+  "slug": "/module04",
+  "permalink": "/module04",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+    "permalink": "/module03"
+  },
+  "next": {
+    "title": "Hardware Requirements",
+    "permalink": "/hardware"
+  }
+}

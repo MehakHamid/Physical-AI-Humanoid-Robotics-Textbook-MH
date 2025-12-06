@@ -1,0 +1,152 @@
+# Create docusaurus.config.js
+cat > docusaurus.config.js << 'EOF'
+// @ts-check
+import {themes as prismThemes} from 'prism-react-renderer';
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'Physical AI & Humanoid Robotics',
+  tagline: 'AI Systems in the Physical World - Embodied Intelligence',
+  favicon: 'img/favicon.ico',
+
+  url: 'https://your-demo-site.com',
+  baseUrl: '/',
+
+  organizationName: 'your-username',
+  projectName: 'physical-ai-textbook',
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: './sidebars.js',
+          routeBasePath: '/',
+        },
+        blog: false,
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      }),
+    ],
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      navbar: {
+        title: 'Physical AI & Robotics',
+        logo: {
+          alt: 'Logo',
+          src: 'img/logo.svg',
+        },
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Textbook',
+          },
+        ],
+      },
+      footer: {
+        style: 'dark',
+        copyright: `Copyright © ${new Date().getFullYear()} Physical AI Textbook. Built for Hackathon.`,
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    }),
+};
+
+export default config;
+EOF
+
+# Create sidebars.js
+cat > sidebars.js << 'EOF'
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+  tutorialSidebar: [
+    {
+      type: 'category',
+      label: 'Physical AI Textbook',
+      items: [
+        'intro',
+        'module1',
+        'module2', 
+        'module3',
+        'module4',
+      ],
+    },
+  ],
+};
+
+export default sidebars;
+EOF
+
+# Create docs folder and intro file
+mkdir -p docs
+cat > docs/intro.md << 'EOF'
+# Introduction to Physical AI & Humanoid Robotics
+
+The future of work will be a partnership between people, intelligent agents (AI software), and robots.
+
+## Course Overview
+
+This course bridges the gap between the digital brain and the physical body. Students apply AI knowledge to control Humanoid Robots in simulated and real-world environments.
+
+### Modules
+
+1. **Module 1: The Robotic Nervous System (ROS 2)**
+2. **Module 2: The Digital Twin (Gazebo & Unity)**
+3. **Module 3: The AI-Robot Brain (NVIDIA Isaac)**
+4. **Module 4: Vision-Language-Action (VLA)**
+
+### Learning Outcomes
+- Understand Physical AI principles
+- Master ROS 2 for robotic control
+- Simulate robots with Gazebo
+- Develop with NVIDIA Isaac platform
+- Design humanoid robots for natural interactions
+EOF
+
+# Create module files
+cat > docs/module1.md << 'EOF'
+# Module 1: Robotic Nervous System (ROS 2)
+
+## Introduction to ROS 2
+ROS 2 (Robot Operating System) is middleware for robot control.
+
+### Key Concepts
+- Nodes
+- Topics
+- Services
+- Actions
+
+### Example: Simple Publisher
+```python
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+class SimplePublisher(Node):
+    def __init__(self):
+        super().__init__('simple_publisher')
+        self.publisher_ = self.create_publisher(String, 'topic', 10)
+        timer_period = 1.0
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        
+    def timer_callback(self):
+        msg = String()
+        msg.data = 'Hello ROS 2!'
+        self.publisher_.publish(msg)

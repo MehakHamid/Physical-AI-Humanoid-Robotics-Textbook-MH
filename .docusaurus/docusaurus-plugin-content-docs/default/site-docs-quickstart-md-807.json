@@ -1,0 +1,14 @@
+{
+  "id": "quickstart",
+  "title": "Quick Start Guide",
+  "description": "This guide will help you get started with Spec-Driven Development using Spec Kit.",
+  "source": "@site/docs/quickstart.md",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,14 @@
+{
+  "id": "installation",
+  "title": "Installation Guide",
+  "description": "Prerequisites",
+  "source": "@site/docs/installation.md",
+  "sourceDirName": ".",
+  "slug": "/installation",
+  "permalink": "/installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

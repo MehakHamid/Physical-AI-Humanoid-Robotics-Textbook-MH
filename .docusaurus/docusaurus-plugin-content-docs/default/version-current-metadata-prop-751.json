@@ -1,0 +1,107 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Course Modules",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 1: ROS 2",
+            "href": "/module01",
+            "docId": "module01",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 2: Gazebo",
+            "href": "/module02",
+            "docId": "module02",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 3: NVIDIA Isaac",
+            "href": "/module03",
+            "docId": "module03",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 4: VLA",
+            "href": "/module04",
+            "docId": "module04",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "link",
+        "label": "Hardware Requirements",
+        "href": "/hardware",
+        "docId": "hardware",
+        "unlisted": false
+      }
+    ]
+  },
+  "docs": {
+    "hardware": {
+      "id": "hardware",
+      "title": "Hardware Requirements",
+      "description": "Workstation",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Physical AI & Humanoid Robotics",
+      "description": "Focus and Theme: AI Systems in the Physical World. Embodied Intelligence.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module01": {
+      "id": "module01",
+      "title": "Module 1: The Robotic Nervous System (ROS 2)",
+      "description": "Focus: Middleware for robot control.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module02": {
+      "id": "module02",
+      "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+      "description": "Focus: Physics simulation and environment building.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module03": {
+      "id": "module03",
+      "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "module04": {
+      "id": "module04",
+      "title": "Module 4: VLA",
+      "description": "Vision-Language-Action models.",
+      "sidebar": "tutorialSidebar"
+    },
+    "README": {
+      "id": "README",
+      "title": "🤖 Physical AI Humanoid Robotics Textbook",
+      "description": "Spec Kit Plus Edition"
+    }
+  }
+}

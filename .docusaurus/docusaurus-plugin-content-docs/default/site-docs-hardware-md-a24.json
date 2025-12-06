@@ -1,0 +1,19 @@
+{
+  "id": "hardware",
+  "title": "Hardware Requirements",
+  "description": "Workstation",
+  "source": "@site/docs/hardware.md",
+  "sourceDirName": ".",
+  "slug": "/hardware",
+  "permalink": "/hardware",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 4: VLA",
+    "permalink": "/module04"
+  }
+}

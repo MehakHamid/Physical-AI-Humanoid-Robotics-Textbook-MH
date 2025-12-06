@@ -1,0 +1,86 @@
+{
+  "/__docusaurus/debug-a9a": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-20-ee1"
+    }
+  },
+  "/__docusaurus/debug/config-18f": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-20-ee1"
+    }
+  },
+  "/__docusaurus/debug/content-a7b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-20-ee1"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-8a0": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-20-ee1"
+    }
+  },
+  "/__docusaurus/debug/metadata-449": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-20-ee1"
+    }
+  },
+  "/__docusaurus/debug/registry-f71": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-20-ee1"
+    }
+  },
+  "/__docusaurus/debug/routes-146": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-20-ee1"
+    }
+  },
+  "/-f5f": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---947-097"
+    }
+  },
+  "/-a23": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---935-fcf"
+  },
+  "/-6d5": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/hardware-058": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hardwarea-24-f31"
+  },
+  "/intro-283": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---intro-0-e-3-7b8"
+  },
+  "/module01-be2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---module-01777-e72"
+  },
+  "/module02-a5c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---module-02-c-13-3d9"
+  },
+  "/module03-c1f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---module-03613-2f4"
+  },
+  "/module04-43f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---module-049-d-6-5b5"
+  },
+  "/-940": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---233-28b"
+  }
+}

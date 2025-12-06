@@ -1,0 +1,62 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "README",
+          "docs": [
+            {
+              "id": "hardware",
+              "path": "/hardware",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module01",
+              "path": "/module01",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module02",
+              "path": "/module02",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module03",
+              "path": "/module03",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module04",
+              "path": "/module04",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/intro",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

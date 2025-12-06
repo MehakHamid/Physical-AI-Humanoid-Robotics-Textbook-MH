@@ -1,0 +1,19 @@
+{
+  "id": "intro",
+  "title": "Physical AI & Humanoid Robotics",
+  "description": "Focus and Theme: AI Systems in the Physical World. Embodied Intelligence.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Module 1: The Robotic Nervous System (ROS 2)",
+    "permalink": "/module01"
+  }
+}

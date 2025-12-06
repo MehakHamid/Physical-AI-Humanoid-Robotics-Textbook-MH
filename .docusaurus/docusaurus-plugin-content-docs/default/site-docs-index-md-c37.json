@@ -1,0 +1,14 @@
+{
+  "id": "index",
+  "title": "Spec Kit",
+  "description": "Build high-quality software faster.",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

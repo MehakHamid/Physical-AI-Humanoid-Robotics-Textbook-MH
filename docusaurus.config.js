@@ -1,10 +1,10 @@
 module.exports = {
-  title: "Physical AI Textbook",
-  tagline: "Hackathon Project",
-  url: "https://example.com",
-  baseUrl: "/",
-  organizationName: "hackathon",
-  projectName: "physical-ai-textbook",
+title: "Physical AI & Humanoid Robotics",
+  tagline: "Hackathon Textbook Project",
+  url: "https://mehakhamid.github.io",  // ← Your GitHub Pages URL
+  baseUrl: "/Physical-AI-Humanoid-Robotics-Textbook-MH/",  // ← Repository name
+  organizationName: "MehakHamid",  // ← Your GitHub username
+  projectName: "Physical-AI-Humanoid-Robotics-Textbook-MH",  // ← Repository name
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   i18n: {
